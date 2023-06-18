@@ -15,3 +15,6 @@ npx
 ```bash
 npx ts-node index.ts
 ```
+### **What can I put in the main parameter?**
+**Common dice operations (Example: 1d20) and sum modifiers in operations (Example: 1d20+15).**
+**It is also possible to roll several separate dice at once (Example: 1d20+10d6+15+15+1d100).**
