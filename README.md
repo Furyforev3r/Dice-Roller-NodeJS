@@ -1,1 +1,1 @@
-# Dice-Roller-NodeJS
+# 🎲 | Dice-Roller-NodeJS
