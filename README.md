@@ -4,7 +4,7 @@
 # 📥 Installation
 **Clone the repository:**
 ```bash
-git clone https://github.com/Furyforev3r/Youtube-Downloader-ExpressJS.git
+git clone https://github.com/Furyforev3r/Dice-Roller-NodeJS.git
 ```
 **Install dependencies:**
 ```bash
