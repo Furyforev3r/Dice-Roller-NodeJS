@@ -4,13 +4,11 @@ function DiceRoller(diceOperation: string) {
     let finalReturn: any = {}
     let dicesSplit: Array<string> = diceOperation.split("+")
     let dicesToMod: Array<Array<Number>> = []
-    let lastVerified: number = -1
     dicesSplit.forEach((atualItem: string, index: number) => {
         if (atualItem.toLowerCase().includes("d")) {
             dicesToMod.push([index])
-            lastVerified++
         } else {
-            dicesToMod[lastVerified].push(index)
+            dicesToMod[dicesToMod.length-1].push(index)
         }
     })
 
