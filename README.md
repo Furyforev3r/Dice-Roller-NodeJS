@@ -8,7 +8,7 @@ git clone https://github.com/Furyforev3r/Dice-Roller-NodeJS.git
 ```
 **Install dependencies:**
 ```bash
-npx 
+npm install
 ```
 # 🖥️ How to Run
 **Run the command:**
